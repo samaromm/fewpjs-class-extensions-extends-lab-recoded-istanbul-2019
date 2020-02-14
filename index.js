@@ -14,4 +14,8 @@ class Polygon{
   }
 }
 
-class 
+class Triangle extends Polygon{
+  get isValid(){
+    return (this.countSides==3)
+  }
+}
