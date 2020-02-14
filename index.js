@@ -5,5 +5,5 @@ class Polygon{
     this.sides=sides
   }
   
-  get 
+  get countSides(){return sides.length}
 }
