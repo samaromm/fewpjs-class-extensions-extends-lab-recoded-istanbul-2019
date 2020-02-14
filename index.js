@@ -18,7 +18,7 @@ class Triangle extends Polygon{
   get isValid(){
     if(this.countrySides!=3)return false
     let arr=this.sides
-    if(arr[0]+arr[1]<arr[2]||arr[0]+arr[2]<arr[1]||arr[1]+arr[2]<arr[0]) return false
+    if(this.sides[0]+this.sides[1]<this.sides[2]||this.sides[0]+this.sides[2]<this.sides[1]||this.sides[1]+this.sides[2]<this.sides[0]) return false
     return true
   }
 }
