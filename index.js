@@ -9,7 +9,7 @@ class Polygon{
     let sum=0
     for(let i of this.sides){
       sum+=i
-    }
+    } return sum
     
   }
 }
