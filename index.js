@@ -23,5 +23,9 @@ class Triangle extends Polygon{
 }
 
 class Square extends Polygon{
-  
+  get isValid(){
+    let arr=this.sides
+    if(arr[0]==arr[1]&&arr[1]==arr[2]&&arr[2]==arr[3])return true
+    return false
+  } 
 }
