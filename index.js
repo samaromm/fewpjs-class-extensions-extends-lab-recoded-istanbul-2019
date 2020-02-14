@@ -17,7 +17,7 @@ class Polygon{
 class Triangle extends Polygon{
   get isValid(){
     if(this.countrySides!=3)return false
-    
+    if()
     return true
   }
 }
